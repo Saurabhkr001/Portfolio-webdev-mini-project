@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh kumar: Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #5f0799;
+            color: #ffffff;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+        }
+        nav h1 {
+            color: #2cd007;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ffcc00;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+        #hero {
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #ffcc00, #ff6600);
+            color: #121212;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        #hero img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 5px solid #ffcc00;
+        }
+        button {
+            padding: 12px 25px;
+            background-color: #ffcc00;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #ff9900;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        #about, #projects, #skills, #contact {
+            background-color: #1e1e1e;
+            padding: 60px 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .project {
+            background-color: #333;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(255, 204, 0, 0.3);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            display: inline-block;
+            background-color: #562abb;
+            color: #121212;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #contact a {
+            color: #ff6600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #contact a:hover {
+            color: #ff3300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Saurabh Kumar</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Hello! This is Saurabh Kumar.</h2>
+        <p><b><i>"Dream Big, start small, but most of all, START."</i> </b> </p>
+        <img src="c:\Users\saura\OneDrive\Desktop\New folder (2)\profile.jpg" alt="Saurabh Kumar">
+        <p>Aspiring Computer Science Engineering Student at NIMS University, Jaipur.</p>
+        
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Saurabh Kumar, a Computer Science graduate with strong skills in Python, SQL, and Data Structures.
+            I enjoy solving coding challeneges and have build projects like a 'Library Management System' to apply my knowledge in real-world scenerios.
+            I'm passionate about my career and want to grow as a Software developer.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            
+            <h3>Tic-Tac-toe</h3>
+            <p>An intresting 2-player game made in python using multiple functions and libraries like pygame.</p>
+        </div>
+        <div class="project">
+            <h3>Forex convertor</h3>
+            <p>A type of currency convertor where I used Java frameworks for more and better functionalities.
+                It takes input from the user in a specific currency and converts it into the desired currency and returns the output.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>SQL & Databases</li>
+            <li>Front-end Development</li>
+            
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: saurabhskp1000@gmail.com</p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/saurabh-kumar-401b42212/" target="_blank">Saurabh kumar</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/saurabh_kr001" target="_blank">@saurabh_kr001</a></p>
+    </section>
+</body>
+</html>
